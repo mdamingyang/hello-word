@@ -62,7 +62,7 @@ void serchdata(TEXT info[],int n)				//按姓名查找
 		if(!strcmp(name,info[i].name))			//字符串比较
 		{
 			printf("姓名\t籍贯\t电话1\t电话2\t邮箱\n");			//相等则打印数据
-			printf("%s\t%s\t%s\t%s\t%s\n",info[i].name,info[i].nat,info[i].tel1,info[i].tel2,info[i].mail);
+			printf("%s\t%s\t%s\t%s\t%s\n\n",info[i].name,info[i].nat,info[i].tel1,info[i].tel2,info[i].mail);
 			break;
 		}
 	}

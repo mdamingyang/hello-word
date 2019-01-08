@@ -17,7 +17,7 @@ int main()
 		while(s>6||s<0)	      //ÊäÈë´íÎóºóµÄÅÐ¶Ï
 		{ 
 			printf("ÊäÈë´íÎó£¬ÇëÖØÐÂÊäÈë£º");
-			fflush(stdin);
+			fflush(stdin);    //Ë¢ÐÂÊ£Óà×Ö·ûµÄÊäÈë»º³åÇø
 			scanf("%d",&s);
 		}
 		switch(s)        //Ñ¡Ôñº¯Êý
